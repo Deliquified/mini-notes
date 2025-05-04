@@ -24,4 +24,4 @@ export async function GET(request: Request) {
     console.error('❌ Error in pinataGetFile:', error);
     return NextResponse.json({ error: 'Failed to retrieve file from Pinata' }, { status: 500 });
   }
-} 
+}

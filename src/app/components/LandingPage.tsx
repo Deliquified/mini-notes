@@ -23,7 +23,7 @@ export const LandingPage = () => {
             Notes <span className="text-blue-600 dark:text-blue-400">On-Chain</span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Private note-taking powered by LUKSO Universal Profiles. <br /> Your notes go where you go.
+            Blockchain-integrated note-taking powered by LUKSO Universal Profiles. <br /> Your notes go where you go.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <a
@@ -51,10 +51,10 @@ export const LandingPage = () => {
         
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-4">
-            Your notes, truly private and yours
+            Your notes, on the blockchain
           </h2>
           <p className="text-center text-gray-600 dark:text-gray-400 mb-16 max-w-3xl mx-auto">
-            Everything you write is securely stored and referenced on the blockchain, accessible only by you.
+            Everything you write is stored on Pinata's IPFS network with blockchain references, accessible via your Universal Profile.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 dark:border-gray-700">
@@ -62,10 +62,10 @@ export const LandingPage = () => {
                 <Lock className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-                Privacy-First Design
+                Controlled Access
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Notes stored on Pinata's private IPFS network. Only you can view your content.
+                Notes stored on Pinata's IPFS network. Access is limited to you and the application service.
               </p>
             </div>
             <div className="p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 dark:border-gray-700">
@@ -114,7 +114,7 @@ export const LandingPage = () => {
                   Connect Your Profile
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Sign in with your Universal Profile to access your private notes.
+                  Sign in with your Universal Profile to access your notes.
                 </p>
               </div>
             </div>
@@ -137,10 +137,10 @@ export const LandingPage = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                  Encrypted Storage
+                  IPFS Storage
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Notes are uploaded to Pinata's private IPFS network and remain exclusively accessible to you.
+                  Notes are uploaded to Pinata's IPFS network. They're accessible to you through your Universal Profile and to the application service.
                 </p>
               </div>
             </div>
@@ -171,10 +171,10 @@ export const LandingPage = () => {
         <div className="max-w-4xl mx-auto px-4 text-center relative">
           <div className="p-10 rounded-3xl border border-white/30">
             <h2 className="text-5xl font-bold text-white mb-6 drop-shadow-lg">
-              Ready to take control of your notes?
+              Ready to start your blockchain notes journey?
             </h2>
             <p className="text-xl text-white mb-10 max-w-2xl mx-auto drop-shadow-lg">
-              Your data belongs to you. Start writing with true ownership and privacy.
+              Keep your notes connected to your Universal Profile with blockchain references.
             </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <a

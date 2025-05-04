@@ -149,7 +149,7 @@ export function NotesProvider({ children }: { children: ReactNode }) {
       console.log("📦 Encoded data from smart contract:", encodedData);
 
       // Check if we have data
-      //@ts-expect-error
+      //@ts-expect-error: No idea why this is throwing an error
       if (!encodedData || !encodedData[0] || !encodedData[0].value || !encodedData[0].value.url) {
         console.log("ℹ️ No notes data found in smart contract");
         setIsLoading(false);
@@ -157,7 +157,7 @@ export function NotesProvider({ children }: { children: ReactNode }) {
       }
 
       // Extract IPFS hash from the URL
-      //@ts-expect-error
+      //@ts-expect-error: No idea why this is throwing an error
       const ipfsUrl = encodedData[0].value.url;
       console.log("🔗 IPFS URL found:", ipfsUrl);
       

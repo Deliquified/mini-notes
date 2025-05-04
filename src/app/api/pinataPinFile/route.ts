@@ -9,7 +9,7 @@ export async function POST(request: NextRequest) {
     const url = uploadData.cid;
     return NextResponse.json(url, { status: 200 });
   } catch (e) {
-    console.log(e);
+    // console.log(e);
     return NextResponse.json(
       { error: "Internal Server Error" },
       { status: 500 }

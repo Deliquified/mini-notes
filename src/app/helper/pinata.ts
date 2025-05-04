@@ -1,7 +1,7 @@
 export const uploadMetadataToIPFS = async (metadata: any) => {
     try {
       // Log the data being sent to IPFS for debugging
-      console.log("📦 Metadata being uploaded to IPFS:", JSON.stringify(metadata));
+      // console.log("📦 Metadata being uploaded to IPFS:", JSON.stringify(metadata));
       
       const formData = new FormData();
       const metadataBlob = new Blob([JSON.stringify(metadata)], { type: 'application/json' });
@@ -20,7 +20,7 @@ export const uploadMetadataToIPFS = async (metadata: any) => {
       }
 
       const ipfsUrl = await response.json();
-      console.log("🏆 Successfully uploaded to IPFS, response:", ipfsUrl);
+      // console.log("🏆 Successfully uploaded to IPFS, response:", ipfsUrl);
       return ipfsUrl;
     } catch (error) {
       console.error('Error uploading to IPFS:', error);

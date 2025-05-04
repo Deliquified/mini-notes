@@ -10,7 +10,7 @@ export async function GET(request: Request) {
       return NextResponse.json({ error: 'CID parameter is required' }, { status: 400 });
     }
 
-    console.log('📦 Fetching file from Pinata:', cid);
+    // console.log('📦 Fetching file from Pinata:', cid);
     
     const response = await pinata.gateways.private.get(cid);
     
@@ -18,7 +18,7 @@ export async function GET(request: Request) {
       return NextResponse.json({ error: 'Failed to retrieve file from Pinata' }, { status: 404 });
     }
 
-    console.log('✅ Successfully retrieved file from Pinata');
+    // console.log('✅ Successfully retrieved file from Pinata');
     return NextResponse.json(response.data);
   } catch (error) {
     console.error('❌ Error in pinataGetFile:', error);

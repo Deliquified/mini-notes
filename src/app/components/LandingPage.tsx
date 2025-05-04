@@ -65,7 +65,15 @@ export const LandingPage = () => {
                 Controlled Access
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Notes stored on Pinata's IPFS network. Access is limited to you and the application service.
+                Notes stored on Pinata's IPFS network. Access is limited to you and the application service.{' '}
+                <a 
+                  href="https://pinata.cloud/blog/what-is-private-ipfs/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  Learn about Private IPFS
+                </a>
               </p>
             </div>
             <div className="p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 dark:border-gray-700">
@@ -140,7 +148,15 @@ export const LandingPage = () => {
                   IPFS Storage
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Notes are uploaded to Pinata's IPFS network. They're accessible to you through your Universal Profile and to the application service.
+                  Notes are uploaded to Pinata's IPFS network. They're accessible to you through your Universal Profile and to the application service.{' '}
+                  <a 
+                    href="https://pinata.cloud/blog/what-is-private-ipfs/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 hover:underline"
+                  >
+                    Read more about Private IPFS
+                  </a>
                 </p>
               </div>
             </div>
